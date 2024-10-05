@@ -57,3 +57,46 @@ main .main-image{
     height: 300px;
     width: 300px;
 }
+section{
+    background-color: #eeebeb;
+    text-align: justify;
+    padding: 50px;
+}
+section h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+}
+article{
+    padding: 50px;
+}
+article .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+article h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+article .card{
+    background: rgb(239, 239, 239);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+}
+article .card button{
+    padding: 5px 0;
+    background-color: #201515;
+    color: white;
+    border-radius: 5px;
+}
+article .card button:hover{
+    background-color: #eeebeb;
+    color: #1b1a1a;
+    cursor: pointer;
+}
