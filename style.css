@@ -21,3 +21,39 @@ nav .second .navlinks a{
     text-decoration: none;
     color: #1b1a1a;
 }
+nav .second .navlinks a:hover{
+    text-decoration: underline;
+}
+nav .third .icon-container i{
+    font-size: 20px;
+}
+nav .third .icon-container i:hover{
+    color: orange;
+}
+main{
+    display: flex;
+}
+main .left{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+main .right{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+main .left h1 span{
+    color: rgb(247, 201, 115);
+}
+main .left h2 span{
+    color: rgb(248, 209, 137);
+}
+main .main-image{
+    height: 300px;
+    width: 300px;
+}
